@@ -339,3 +339,21 @@ footer {
   filter: brightness(1.25);
   box-shadow: 3px 3px 5px #444;
 }
+
+
+.project-getit
+{
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.125s;
+  width: : 45%;
+}
+
+.project-getit:hover
+{
+    -webkit-filter: brightness(1.125);
+  filter: brightness(1.125);
+}
