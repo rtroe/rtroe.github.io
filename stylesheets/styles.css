@@ -251,7 +251,7 @@ small {
 
 hr {
   border: 0;
-  background: #e5e5e5;
+  background: #ebebeb;
   height: 1px;
   margin: 0 0 20px;
 }
@@ -383,4 +383,19 @@ table {
 
 table col {
   width: 50%;
+}
+
+.social-icon {
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  /* ...and now for the proper property */
+  transition: 0.125s;
+  /*filter: grayscale(100%);*/
+}
+
+.social-icon:hover {
+  -webkit-filter: brightness(1.25);
+  filter: brightness(1.25);
 }
